@@ -5,6 +5,10 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      { "source": "/contatti", "destination": "/", "type": 301 },
+      { "source": "/contatti/**", "destination": "/", "type": 301 }
     ]
   }
 }
