@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "www.folbo.it",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
